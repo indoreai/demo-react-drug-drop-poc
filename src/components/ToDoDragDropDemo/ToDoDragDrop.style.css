@@ -1,0 +1,26 @@
+.droppable {
+    position: absolute;
+    width: 30%;
+    height: 300px;
+    right: 0;
+    top: 10;
+    background-color: #9E9E9E;
+    border-left: 2px dotted red;
+  }
+  
+  .draggable {
+    width: 40%;
+    height: 300px;
+    background-color: yellow;
+    margin: 10px auto;
+  }
+  
+  .inProgress {
+    position: absolute;
+    width: 60%;
+    height: 300px;
+    left: 0;
+    top: 10;
+    background-color: #EEEEEE;
+    border-right: 2px dotted red;
+  }
